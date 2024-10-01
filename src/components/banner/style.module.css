@@ -1,0 +1,71 @@
+.first_banner {
+  background-image: url("../../assets/images/banner1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.fb_content {
+  padding: 37px 0 31px 40px;
+}
+.fb_price {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+.fb_price span {
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.fb_quantity {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22.1px;
+  margin-bottom: 20px;
+}
+.second_banner {
+  background-image: url("../../assets/images/banner2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  border-radius: 15px;
+}
+.sb_content {
+  text-align: end;
+  padding: 41px 92px 41px 0px;
+}
+.sb_offer {
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.sb_offer span {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1px 8px;
+}
+.sb_profit {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  color: #666666;
+}
+.sb_profit a {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

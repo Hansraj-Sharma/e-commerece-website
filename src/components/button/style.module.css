@@ -1,0 +1,122 @@
+.button {
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 8px;
+  border: 0.4px solid;
+  border-radius: 12px;
+}
+
+.fill {
+  background: #01a49e;
+  border-color: #01a49e;
+  color: #ffffff;
+}
+.outline {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+.small {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.5px;
+  text-align: center;
+  padding: 10px 15px 8px 15px;
+  border-radius: 5px;
+}
+
+.medium {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #000000;
+  padding: 10px 20px;
+}
+.large {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  border-radius: 8px;
+  padding: 16px 30px;
+}
+.arrow {
+  width: 12px;
+  height: 2.5px;
+  background-color: currentColor;
+  display: inline-block;
+  position: relative;
+}
+.arrow::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-top: 2.5px solid;
+  border-left: 2.5px solid;
+  transform: translateY(-50%) rotate(-228deg);
+  top: 1.3px;
+  left: 3.5px;
+  border-color: currentColor;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.lightBrown {
+  color: #000000;
+  background-color: #edf0f7;
+}
+.lightGreen {
+  color: #38cd38;
+  background-color: #dffcdf;
+  border: none;
+}
+.green {
+  color: #ffffff;
+  background-color: #1aba1a;
+  border: none;
+}
+.black {
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.alignright {
+  text-align: end;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+@media (max-width: 425px) {
+  .large {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+    border-radius: 8px;
+    padding: 12px 24px;
+  }
+  .medium {
+    padding: 10px 17px;
+  }
+  
+}

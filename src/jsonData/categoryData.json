@@ -1,0 +1,52 @@
+[
+  {
+    "text": "new",
+    "name": "New Arrivals",
+    "bgColor": "red"
+  },
+  {
+    "text": "sale",
+    "name": "Clearance",
+    "bgColor": "sky"
+  },
+  {
+    "imgUrl": "pc_img1",
+    "name": "Pregnancy & Postpartum",
+    "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQzX2KuG9wnBNbAQkJfa6-18WEzxCu9NDJAkAK4V4iRXiQHwF6i"
+  },
+  {
+    "imgUrl": "pc_img2",
+    "name": "Milks and Foods",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfxzQXsZtMUIVzBl7AOT3MRdqpoPbWJhiItCl7zqcE0MH1T5PX"
+  },
+  {
+    "imgUrl": "pc_img3",
+    "name": "Diapers and Wipes",
+    "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1JNcyTeRB4nk7X0u-9jb1Gv9LaENXLccV-ViTO_aaD3CiiPyz"
+  },
+  {
+    "imgUrl": "pc_img4",
+    "name": "Infant",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-rKkvZflTBLDGwTXL9DPqnmCILcMDKK7hoHWMHRLXtQbOOpP_"
+  },
+  {
+    "imgUrl": "pc_img5",
+    "name": "Eat & Drink Supplies",
+    "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQgu2E4nhE8xt1gMY-mdqI6PVbQO6-Ab5GcwF_t8SkFMUqw_nxq"
+  },
+  {
+    "imgUrl": "pc_img6",
+    "name": "Stroller, Crib, Chair",
+    "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSyoAA8pjJfopoctsSmhMQWGpjbCGQtQGZux6NU9z8Ho3q2vsnf"
+  },
+  {
+    "imgUrl": "pc_img7",
+    "name": "Washes & Bath",
+    "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLVCV-_NQRVvPJn0VlObRvGVRX8YGfxUcjrhLk6TdgQs598WTP"
+  },
+  {
+    "imgUrl": "pc_img8",
+    "name": "Baby Fashion",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Spm0CAdU4WfwkRLOrsiYJZEDAOrV_E22HZ7A5dboeCY2XXMw"
+  }
+]

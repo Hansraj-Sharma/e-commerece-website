@@ -1,0 +1,117 @@
+.product_card {
+  padding: 21px;
+  border: 1px solid #cccccc;
+  border-radius: 12px;
+}
+.product_box {
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+.pb_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+.pb_head .pb_name {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+.pb_head .pb_rating {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding-top: 10px;
+}
+.product_box .pb_slide {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+.product_box .pb_slide a img {
+  width: 100%;
+}
+.product_box .pb_slide .product_updates {
+  top: 10px;
+  left: 50%;
+  display: flex;
+  gap: 6px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.product_box .pb_slide .product_info {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 5px 8px;
+  background-color: #000000;
+  border-radius: 8px;
+}
+.pb_footer .present_price {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #000000;
+}
+.other_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pb_footer .purchase_count {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #666666;
+}
+.pb_footer .purchase_count span {
+  color: #000000;
+}
+.pb_footer .wishlist {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.gift_card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 24px 15px 24px 15px;
+  margin-top: 20px;
+  background-color: #f9f1e4;
+}
+.gift_card img {
+  width: 100%;
+}
+.gc_content {
+  max-width: 257px;
+  width: 100%;
+}
+.gc_content ul {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+  margin-bottom: 19px;
+}
+.list_item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  list-style-type: square;
+}
+.list_item span {
+  font-weight: 700;
+  color: #eb4227;
+}
+.expire_date {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.4px;
+  color: #666666;
+}

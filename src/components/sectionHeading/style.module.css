@@ -1,0 +1,36 @@
+.heading {
+  margin-bottom: 40px;
+}
+.heading1 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #01a49e;
+}
+.heading2 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000000;
+}
+.center {
+  justify-content: center;
+}
+.left {
+  justify-content: left;
+}
+.right {
+  justify-content: right;
+}
+@media (max-width: 425px) {
+  .heading1 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .heading2 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+}

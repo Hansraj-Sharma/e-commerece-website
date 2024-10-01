@@ -1,0 +1,51 @@
+.custom_select {
+  display: inline-block;
+}
+.custom_select .cs_label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: currentColor;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cs_options {
+  background-color: #fff;
+  position: absolute;
+  top: 57px;
+  left: 0;
+  border: 1px solid #ddd;
+  z-index: 10;
+  padding: 25px 97px 25px 25px;
+  border-radius: 0 0 10px 10px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 435px;
+  overflow: auto;
+}
+.cs_options .cs_option {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #000000;
+  padding-top: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.cs_options .cs_option::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 27px;
+  color: inherit;
+  left: calc(100% + 32px);
+  border-left: 2.5px solid;
+  border-top: 2.5px solid;
+  transform: translateY(-50%) rotate(135deg);
+}

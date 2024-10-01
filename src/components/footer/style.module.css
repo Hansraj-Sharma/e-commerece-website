@@ -1,0 +1,220 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.footer .footer_left {
+  display: flex;
+  gap: 80px;
+}
+.footer .footer_left .fl_item ul {
+  padding: 0;
+  margin: 0;
+}
+.footer .footer_left .fl_item ul li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #666666;
+  padding-bottom: 10px;
+  list-style: none;
+}
+.footer .footer_left .fl_item ul .title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #000000;
+  padding-bottom: 25px;
+}
+.footer .footer_right ul {
+  padding: 0;
+  margin: 0;
+}
+.footer .footer_right ul li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #666666;
+  list-style: none;
+}
+.footer .footer_right ul .title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #000000;
+  padding-bottom: 25px;
+}
+.footer .footer_right ul .title span {
+  color: #eb4227;
+}
+.footer .footer_right ul .input_btn {
+  padding-bottom: 16px;
+}
+.footer .footer_right ul .input_btn input {
+  padding: 13px 2px 13px 20px;
+  border: none;
+  border-radius: 7px 0px 0px 7px;
+  background-color: #edf0f7;
+}
+.footer .footer_right ul .input_btn input:focus {
+  border: none;
+  outline: none;
+}
+.footer .footer_right ul .subscribe_btn {
+  border-radius: 0px 7px 7px 0px;
+}
+.footer .footer_right ul .privacy a {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  padding-bottom: 30px;
+}
+.footer .footer_right ul .hotline {
+  color: #000000;
+}
+.footer .footer_right ul .hotline span {
+  font-weight: 700;
+  color: #01a49e;
+}
+.footer .footer_right ul .work_time span,
+.mail span {
+  color: #000000;
+}
+.footer .footer_right ul .mail span {
+  color: #000000;
+}
+.footer .footer_right ul .icons {
+  display: flex;
+  gap: 14px;
+  padding-top: 30px;
+}
+.footer .footer_right ul .icons .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: #000000;
+  background-color: #edf0f7;
+  cursor: pointer;
+}
+.fb_currency_lang_box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fb_currency_lang_box .currency {
+  width: 100px;
+  text-align: center;
+  position: relative;
+  padding: 6px 0;
+  border-radius: 6px;
+  border: 1px solid #99999955;
+}
+.fb_currency_lang_box .language {
+  width: 100px;
+  text-align: end;
+  margin-right: 15px;
+  position: relative;
+  padding: 6px 20px 6px 0;
+  border-radius: 6px;
+  border: 1px solid #99999955;
+}
+.footer_bottom .fb_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.footer_bottom .fb_images {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer_bottom .download_btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer_bottom .download_btns span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+}
+.footer_bottom .download_btns .store_btn {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 6px;
+  padding: 5px 15px;
+  background-color: #000000;
+}
+.footer_bottom .download_btns .store_btn span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.footer_bottom .fb_bottom {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: center;
+  color: #666666;
+  padding: 30px 0;
+  border-top: 1px solid #dee2e6;
+}
+.footer_bottom .fb_bottom span {
+  font-weight: 700;
+  color: #000000;
+}
+
+@media (max-width: 1400px) {
+  .footer .footer_left {
+    display: flex;
+    gap: 46px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .footer .footer_left {
+    display: flex;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer_bottom .style_fb_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer .footer_right ul .input_btn input {
+    margin-bottom: 20px;
+  }
+  .footer .footer_left {
+    display: flex;
+    gap: 70px;
+  }
+}
